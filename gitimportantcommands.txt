@@ -1,4 +1,4 @@
-what is you delete .git folder??
+what if you delete .git folder??
 firstly intialize empty directory
 
 git init
