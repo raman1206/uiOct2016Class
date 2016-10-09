@@ -1,0 +1,14 @@
+what is you delete .git folder??
+firstly intialize empty directory
+
+git init
+git remote add origin originURL
+
+after this bridge is created b/w local and origin repo
+
+git add <filename>
+git commit -m "comment for the changes"
+git pull origin branch name
+git push origin branch name
+
+git status = check's the status of local repo
