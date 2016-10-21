@@ -16,9 +16,9 @@ label{
     display: block;
 }
 
-/*#reset{
+#reset{
     color: #ff0000;
-}*/
+}
 
 button[type="reset"]{
     background: #ff0000;
@@ -26,10 +26,10 @@ button[type="reset"]{
     border-color: #000;
 }
 
-/*#firstName, #lastName{
+#firstName, #lastName{
     background: #00ff00;
     border: 1px solid #ff0000;
-}*/
+}
 
 
 input[name="lName"]{
