@@ -20,14 +20,14 @@
         <article>
 
             <!--page header-->
-            <header>
+            <header id="main-heading">
                 <h1>Welcome to my website!</h1>
             </header>
 
             <!--main body of the page-->
-            <section>
+            <section id="main-section">
                 <article>
-                    <header>
+                    <header id="nav-heading">
                         <!--page naviagation-->
                         <nav>
                             <ul>
@@ -47,33 +47,37 @@
                                     <a href="srikar.html">Open Srikar</a>
                                 </li>
                             </ul>
+
                         </nav>
                     </header>
                     <section>
                         <!--form for new license in dmv-->
                         <form name="newLicenseForm">
                             <!--First Name-->
-                            <div class="container">
-                                <label for="firstName">Applicant's First Name:</label>
-                                <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
+                            <div>
+                                <input type="text" id="firstName" name="fName"/>
+                                <label for="firstName">Enter your First Name</label>
                             </div>
                             <br />
+
                             <!--Last Name-->
-                            <div class="container">
-                                <label for="lastName">Applicant's Last Name:</label>
-                                <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name"/>
+                            <div>
+                                <input type="text" id="lastName" name="lName"/>
+                                <label for="lastName">Enter your Last Name</label>
                             </div>
                             <br />
+
                             <!--Phone Number-->
                             <div>
-                                <label for="phoneNumber">Applicant's Phone Number:</label>
-                                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                                <input type="text" id="phoneNumber" name="phoneNumber" />
+                                <label for="phoneNumber">Enter your Phone Number</label>
                             </div>
                             <br />
+
                             <!--Gender-->
                             <div>
                                 <label for="gender">Applicant's Gender:</label>
-                                <div id="gender">
+                                <fieldset id="gender">
                                     <!--male-->
                                     <label for="male">Male:</label>
                                     <input type="radio" id="male" name="gender" value="Male"/>
@@ -81,14 +85,16 @@
                                     <!--female-->
                                     <label for="female">Female:</label>
                                     <input type="radio" id="female" name="gender" value="Female"/>
-                                </div>
+                                </fieldset>
                             </div>
                             <br />
+
                             <!--senior citizen-->
                             <div class="container">
                                 <label for="seniorCitizen">Is applicant a senior citizen?</label>
                                 <input type="checkbox" id="seniorCitizen" name="seniorCitizen" data-srikar="viswa"/>
                             </div>
+
                             <!--submit button-->
                             <button type="submit" id="submit">
                                 <span>Submit</span>
@@ -98,12 +104,46 @@
                                 <span>Cancel</span>
                             </button>
                         </form>
+
+
+
+
+                        <div>
+                            <p>This is para1</p>
+                            <span>This is para1-2</span>
+                            <p>This is para1-3</p>
+                        </div>
+
+                        <p>
+                            This is para2
+                        </p>
+
+                        <p>
+                            This is para3
+                        </p>
+
+                        <p>
+                            This is para4
+                        </p>
+
+                        <div>
+                            <p>This is para5</p>
+                        </div>
+
+                        <p>
+                            This is para6
+                        </p>
+
+                        <p>
+                            This is para7
+                        </p>
+
                     </section>
                     <footer></footer>
                 </article>
             </section>
             <!--footer of the page-->
-            <footer>
+            <footer id="main-footer">
                 I'm at the bottom
             </footer>
         </article>
