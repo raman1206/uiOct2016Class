@@ -1,92 +1,117 @@
 
-<!DOCTYPE html>
+        <!DOCTYPE html>
 
-<html lang="en">
-<!-- head of web page-->
-<head>
-    <!-- title of the web page-->
-    <title>Employee Form</title>
+    <html lang="en">
+        <!-- head of web page-->
+        <head>
+            <!-- title of the web page-->
+            <title>Employee Form</title>
 
-    <script></script>
+            <script></script>
 
-    <style></style>
+            <style></style>
 
-    <!--<base href="/home" />-->
-    <!-- link- this is used to link  the external stylesheets.css-->
-    <link rel="stylesheet" href="../styles/styles.css"/>
-    <!-- meta-it holds the meta information about the data of html doc-->
-    <meta charset="UTF-8"/>
-    <!-- it describes the meta information which is not covered by the other 5 tags-->
-    <meta name="description" content="this is the official website for  applying the job "/>
-</head>
+            <!--<base href="/home" />-->
+            <!-- link- this is used to link  the external stylesheets.css-->
+            <link rel="stylesheet" href="../styles/styles.css"/>
+            <!-- meta-it holds the meta information about the data of html doc-->
+            <meta charset="UTF-8"/>
+            <!-- it describes the meta information which is not covered by the other 5 tags-->
+            <meta name="description" content="this is the official website for  applying the job "/>
+        </head>
 
-<!-- body of the web page and it is rendering part of hmtl-->
-<body>
-<!-- main article for form starts-->
-<article>
-    <!--header of page-->
-    <header><b>WELCOME TO MY WEBSITE</b></header>
-    </br>
-    <!-- main body of page-->
-    <section>
-        <!--form for employee-->
-        <form name="new employee form">
+        <!-- body of the web page and it is rendering part of hmtl-->
+        <body>
+        <!-- main article for form starts-->
+        <article>
+            <!--header of page-->
+            <header name= "description">
+                <nav>
+                    <a href="WELCOME TO MY WEBSITE"> <b>WELCOME TO MY WEBSITE</b></a>
 
-            <!-- lable for first name-->
-            <label for="first name">applicant's first name</label>
-            <input type="text" id="first name" name="first name" placeholder="first name"/>
-
-            <!-- lable for last name-->
-            <label for="last name">applicant's last name</label>
-            <input type="text" id="last name" name="first name" placeholder="last name"/>
-
-            <!-- lable for phone number-->
-            <label for="phone number"> applicant's phone number</label>
-            <input type="text" id="phone number" name="phone number" placeholder="phone number"/>
-
-            <!--us citizen -->
-            <label for="us citizen">is applicant a us citizen</label>
-            <input type="checkbox" id="us citizen" name="us citizen"/>
-
-            <!-- label for gender-->
-            <label>applicant's gender:</label>
-
-            <!-- label for male-->
-            <label for="male">male</label>
-            <input type="radio" id="male" name="gender" value="male"/>
-
-            <!-- label for female-->
-            <label for="female">female</label>
-            <input type="radio" id="female" name="gender" value="female"/>
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#news">News</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
             <br>
-            +
-            <button type="submit" id="submit" name="submit" style="background-color:#4a88ee;color:#fff ">
-                <span><b>submit</b></span>
-            </button>
-            <button type="reset" id="reset" name="reset" style=" background-color:#ff0000; color:#fff;"">
-            <span><b>cancel</b></span>
-            </button>
+            <!-- main body of page-->
+            <section>
 
-            <!-- label for email address-->
-            <br>
-            <label for="email">applicant's email adddress</label>
-            <input type="text" id="email" name="email" placeholder="email"/>
+                <!--form for employee-->
+                <form name="newemployeeform">
 
-            <label for="password">enter your password </label>
-            <input type="text" id="password" name="password" placeholder="password"/>
 
-        </form>
+                    <!-- lable for first name-->
+                    <div>
+                        <label for="first name">applicant's first name</label>
+                        <input type="text" id="first name" name="first name" placeholder="first name"/>
+                    </div>
 
-        <li>
-            <ul>
-                <li><a href="training">training</a></li>
-                <li><a href="services">services</a></li>
-                <li><a href="aboutus">about us </a></li>
-            </ul>
-        </li>
-    </section>
-    <!-- footer of the web page-->
-    <footer><b> Thankyou for visting our Website!</b></footer>
-</article>
-</body>
-</html>
+                    <!-- lable for last name-->
+                    <div>
+                        <label for="last name">applicant's last name</label>
+                        <input type="text" id="last name" name="first name" placeholder="last name"/>
+                    </div>
+
+                    <!-- lable for phone number-->
+                    <div>
+                        <label for="phone number"> applicant's phone number</label>
+                        <input type="text" id="phone number" name="phone number" placeholder="phone number"/>
+                    </div>
+
+
+                    <!--us citizen -->
+                    <div>
+                        <label for="us citizen">is applicant a us citizen</label>
+                        <input type="checkbox" id="us citizen" name="us citizen"/>
+                    </div>
+
+
+                    <!-- label for gender-->
+                    <label>applicant's gender:</label> <br>
+
+                    <!-- label for male-->
+                    <label for="male">male</label>
+                    <input type="radio" id="male" name="gender" value="male"/>
+
+                    <!-- label for female-->
+                    <label for="female">female</label>
+                    <input type="radio" id="female" name="gender" value="female"/>
+
+
+                    <!-- label for email address-->
+                    <br>
+                    <label for="email">applicant's email adddress</label>
+                    <input type="text" id="email" name="email" placeholder="email"/>
+
+                    <label for="password">enter your password </label>
+                    <input type="text" id="password" name="password" placeholder="password"/>
+
+                    <button type="submit" id="submit" name="submit">
+                        <span><b>submit</b></span>
+                    </button>
+
+                    <button type="reset" id="reset" name="reset">
+                        <span><b>cancel</b></span>
+                    </button>
+                </form>
+            </section>
+            <!-- footer of the web page-->
+            <footer>
+                <nav>
+                    <a href=" Thankyou for visting our Website!"><b> Thankyou for visting our Website!</b></a>
+                </nav>
+            </footer>
+        </article>
+        </body>
+    </html>

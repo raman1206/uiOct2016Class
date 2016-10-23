@@ -13,7 +13,7 @@
 
             <!--<base href="/home" />-->
             <!-- link- this is used to link  the external stylesheets.css-->
-            <link rel="stylesheet" href="../raman/raman.css"/>
+            <link rel="stylesheet" href="raman.css"/>
             <!-- meta-it holds the meta information about the data of html doc-->
             <meta charset="UTF-8"/>
             <!-- it describes the meta information which is not covered by the other 5 tags-->
@@ -24,99 +24,115 @@
         <body>
             <!-- main article for form starts-->
             <article>
-            <!--header of page-->
+                <!--header of page-->
                 <header name= "description">
-                        <nav>
-                            <a href="WELCOME TO MY WEBSITE"> <b>WELCOME TO MY WEBSITE</b></a>
-                        </nav>
+                    <nav>
+                        <a href="WELCOME TO MY WEBSITE"> <b>WELCOME TO MY WEBSITE</b></a>
+
+                        <ul>
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#news">News</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a></li>
+                            <li><a href="#about">About</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </header>
                      <br>
-                <!-- main body of page-->
+                    <!-- main body of page-->
                 <section>
-                            <ul>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#news">News</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                                <li><a href="#about">About</a></li>
-                            </ul>
-                                        <!--form for employee-->
-                        <form name="newemployeeform">
 
-                                            <!-- lable for first name-->
+                        <!--form for employee-->
+                    <form name="newemployeeform">
+
+                            <!-- lable for first name-->
+                        <div>
                             <label for="first name">applicant's first name</label>
                             <input type="text" id="first name" name="first name" placeholder="first name"/>
+                        </div>
 
-                                            <!-- lable for last name-->
+                            <!-- lable for last name-->
+                        <div>
                             <label for="last name">applicant's last name</label>
                             <input type="text" id="last name" name="first name" placeholder="last name"/>
+                        </div>
 
-                                            <!-- lable for phone number-->
+                            <!-- lable for phone number-->
+                        <div>
                             <label for="phone number"> applicant's phone number</label>
                             <input type="text" id="phone number" name="phone number" placeholder="phone number"/>
+                        </div>
 
-                                            <!--us citizen -->
+
+                            <!--us citizen -->
+                        <div>
                             <label for="us citizen">is applicant a us citizen</label>
                             <input type="checkbox" id="us citizen" name="us citizen"/>
+                        </div>
 
-                                            <!-- label for gender-->
-                            <label>applicant's gender:</label> <br>
+                            <!-- label for gender-->
+                        <label>applicant's gender:</label> <br>
 
-                                            <!-- label for male-->
-                            <label for="male">male</label>
-                            <input type="radio" id="male" name="gender" value="male"/>
+                            <!-- label for male-->
+                        <label for="male">male</label>
+                        <input type="radio" id="male" name="gender" value="male"/>
 
-                                            <!-- label for female-->
-                            <label for="female">female</label>
-                            <input type="radio" id="female" name="gender" value="female"/>
+                            <!-- label for female-->
+                        <label for="female">female</label>
+                        <input type="radio" id="female" name="gender" value="female"/>
 
 
-                                                <!-- label for email address-->
-                            <br>
-                            <label for="email">applicant's email adddress</label>
-                            <input type="text" id="email" name="email" placeholder="email"/>
+                            <!-- label for email address-->
+                        <br>
+                        <label for="email">applicant's email adddress</label>
+                        <input type="text" id="email" name="email" placeholder="email"/>
 
-                            <label for="password">enter your password </label>
-                            <input type="text" id="password" name="password" placeholder="password"/>
+                        <label for="password">enter your password </label>
+                        <input type="text" id="password" name="password" placeholder="password"/>
 
-                            <button type="submit" id="submit" name="submit">
-                                <span><b>submit</b></span>
-                            </button>
+                        <button type="submit" id="submit" name="submit">
+                            <span><b>submit</b></span>
+                        </button>
 
-                            <button type="reset" id="reset" name="reset">
-                                <span><b>cancel</b></span>
-                            </button>
+                        <button type="reset" id="reset" name="reset">
+                            <span><b>cancel</b></span>
+                        </button>
+                    </form>
 
-                        </form>
+                    <div>
+                        <p>This is para1</p>
+                        <h1>This is para1-2</h1>
+                        <p>This is para1-3</p>
+                    </div>
 
-                            <div>
-                                <p>This is para1</p>
-                                <h1>This is para1-2</h1>
-                                <p>This is para1-3</p>
-                            </div>
+                    <p>
+                        This is para2
+                    </p>
 
-                            <p>
-                                This is para2
-                            </p>
+                    <p>
+                        This is para3
+                    </p>
 
-                            <p>
-                                This is para3
-                            </p>
+                    <p>
+                        This is para4
+                    </p>
 
-                            <p>
-                                This is para4
-                            </p>
+                    <div>
+                        <p>This is para5</p>
+                    </div>
 
-                            <div>
-                                <p>This is para5</p>
-                            </div>
+                    <p>
+                        This is para6
+                    </p>
 
-                            <p>
-                                This is para6
-                            </p>
-
-                            <p>
-                                This is para7
-                            </p>
+                    <p>
+                            This is para7
+                    </p>
                 </section>
                 <!-- footer of the web page-->
                 <footer>
