@@ -101,7 +101,10 @@ form[name="newLicenseForm"] div{
 
 input[type="text"],
 input[type="text"]:focus,
-input[type="text"]:hover{
+input[type="text"]:hover,
+input[type="email"],
+input[type="email"]:focus,
+input[type="email"]:hover{
     height: 30px;
     border-radius: 5px;
     border: 1px solid #ccccb9;
@@ -159,14 +162,56 @@ button[type="reset"]:hover{
     background-color: #6dfc4f;
 }
 
+input[name="fName"]:disabled{
+    /*White color*/
+    /*background-color: rgba(255,255,255,1);*/
+    background-color: rgba(0,0,0,1);
+}
+/*input[type="checkbox"]::before{
+    display: none;
+}
 
+input[type="checkbox"]::after{
+    content: 'Yes';
+}*/
 
+#requiredEmail{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    color: #ff0000;
+}
 
+#invalidEmail{
+    position: absolute;
+    bottom: -15px;
+    left: 5px;
+    color: #ff0000;
+}
 
+input[type="email"]:valid,
+input[type="email"]:valid{
+    border: 1px solid #00ff00;
+}
 
+input[type="email"]:invalid,
+input[type="email"]:invalid{
+    border: 1px solid #ff0000;
+}
 
+input[type="email"]:valid ~ #requiredEmail,
+input[type="email"]:valid ~ #invalidEmail{
+    display: none;
+}
 
+input[type="email"]:invalid ~ #requiredEmail,
+input[type="email"]:invalid ~ #invalidEmail{
+    display: inline-block;
+}
 
-
-
+input[type="email"]:invalid + label{
+    top: 0;
+    color: #000;
+    font-size: 13px;
+}
 
