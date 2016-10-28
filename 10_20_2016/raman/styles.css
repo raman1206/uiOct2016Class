@@ -1,0 +1,103 @@
+
+
+form[name="newemployeeform"] {
+    border: 2px solid black;
+    margin:auto;
+    margin-top:50px;
+     width: 14%;
+    padding: 30px;
+    background: url("https://s-media-cache-ak0.pinimg.com/236x/a8/53/86/a8538698c92109492cf319e59e816d47.jpg");
+    background-repeat:no-repeat;
+    background-size:292%;
+}
+
+img{
+width:40px;
+height:40px;
+position:absolute;
+background-position: -10px 5px;
+top:13px;
+left:334px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 303px;
+    background-color: #000;
+    position: fixed;
+    top: 0px;
+    left: 209px;
+    }
+
+
+
+li {
+display:inline-block;
+padding:20px;
+text-decoration:none;
+color:white;
+}
+
+li:hover{
+background-color:white;
+color:red;
+cursor:pointer;
+}
+
+input{
+display:block;
+padding:5px;
+margin:5px;
+}
+
+input:focus{
+background-color:black;
+}
+
+
+
+input:invalid {
+    border: 2px solid;
+    background-color:red;
+  }
+
+
+button[type="submit"] {
+padding:10px;
+background-color:#0000ff;
+border:2px solid black;
+border-radius:10px;
+margin-left:5px;
+
+}
+button[type="reset"] {
+padding:10px;
+background-color:#dd0e1a;
+border:2px solid black;
+border-radius:10px;
+margin-left:40px;
+}
+
+button[type="submit"]:hover {
+background-color:#00ff00;
+cursor:pointer;
+}
+
+button[type="reset"]:hover {
+background-color:yellow;
+cursor:pointer;
+}
+
+.facebook , .twitter, .youtube {
+border:2px solid black;
+padding:5px 15px;
+margin-left:20px;
+border-radius:10px;
+}
+
+.facebook{
+background-color:blue;
+}
+
+

@@ -1,4 +1,6 @@
-
+body{
+background-color:#74e0fd
+}
 form[name="newemployeeform"]{
      border:5px solid #000;
      width:200px;
@@ -51,13 +53,18 @@ ul{
     margin:0;
     padding:20px;
     position:fixed;
+    top:0px;
+    left:500px;
 }
 
 li {
 display:inline;
 padding:20px;
+color:#ff0000;
 }
-
+li a{
+color:#ff000;
+}
 div>p{
  color:#ff0000;
 }
