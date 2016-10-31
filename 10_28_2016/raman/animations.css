@@ -1,0 +1,61 @@
+h1:hover{
+-webkit-transform: rotateZ(360deg);
+-moz-transform: rotateZ(360deg);
+-o-transform: rotateZ(360deg);
+-ms-transform: rotateZ(360deg);
+transform: rotateZ(360deg);
+}
+
+h1{
+webkit-transition-timing-function: ease-in-out;
+-moz-transition-timing-function: ease-in-out;
+-o-transition-timing-function: ease-in-out;
+-ms-transition-timing-function: ease-in-out;
+transition-timing-function:ease-in-out ;
+}
+@keyframes raman {
+    0%    {
+    left:0px; top:100px;
+    }
+    25%   {
+    left:200px; top:100px;
+    }
+    50%  {left:200px; top:200px;
+    }
+    75%  {
+    left:0px; top:200px;
+    }
+    100% {
+    left:0px; top:300px;
+    }
+}
+
+@keyframes scroll{
+    0% {
+        left: 0%;
+    }
+    20%{
+        left:20%
+    }
+    40% {
+        left: 40%;
+    }
+    60%{
+        left:60%;
+    }
+    80%{
+        left:80%
+    }
+    100%{
+        left:100%
+    }
+}
+
+.scroll{
+    position: relative;
+    -webkit-animation: scroll 10s infinite;
+    -moz-animation: scroll 10s infinite;
+    -o-animation: scroll 10s infinite;
+    -ms-animation: scroll 10s infinite;
+    animation: scroll 10s infinite;
+}
