@@ -8,9 +8,8 @@ top:300px;
 left:200px;
 width: 200px;
 height: 50px;
-animation-name: raman;
-animation-duration: 4s;
-transition: width 2s;
+animation: raman 4s infinite;
+
 }
 
 form[name="signupnow"]{
@@ -20,7 +19,8 @@ form[name="signupnow"]{
  padding:50px;
  margin-top:80px;
 }
-form:hover{
+
+form:hover,input:focus{
 background-color:#f38a0b;
 cursor:pointer;
 }
@@ -55,15 +55,15 @@ background-color:#fff;
 cursor:pointer;
 }
 
-button[type="submit"]cd{
-border:2px solid #000;
-background-color:#0cbcf0;
-color:#fff;
-padding:10px;
-margin-top:30px;
-border-radius:10px;
-margin-right:30px;
-cursor:pointer;
+button[type="submit"]{
+    border:2px solid #000;
+    background-color:#0cbcf0;
+    color:#fff;
+    padding:10px;
+    margin-top:30px;
+    border-radius:10px;
+    margin-right:30px;
+    cursor:pointer;
 }
 
 button[type="reset"]{
