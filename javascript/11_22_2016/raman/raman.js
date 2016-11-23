@@ -18,4 +18,4 @@ console.log(b);
 console.log(firstname);
 console.log(c);
 console.log(d);
-console.log(iscsscloaded);
+console.log(iscssloaded);
