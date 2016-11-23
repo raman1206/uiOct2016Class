@@ -1,10 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../stylesheets/styles/main.css"/>
+        <title>Portal Login</title>
+    </head>
+
+    <body>
+         <section class="container-fluid">
+             <header>
+                 <nav>
+                     <ul>
+                         <li>
+                             <a href="#home">Home</a>
+                         </li>
+                         <li>
+                             <a href="raman2.html">Details</a>
+                         </li>
+                         <li>
+                             <a href="#contact">Contact</a></li>
+                         <li><a href="#about">About</a>
+                         </li>
+                     </ul>
+                 </nav>
+             </header>
+             <article class="contains">
+                 <div class="rows">
+                     <!--left side logo-->
+                     <div class="column-xs-12 column-sm-6 column-md-6 column-lg-6">
+                         <figure class="figure">
+                            <img src="../logo/lb.png" width="150px; "/>
+                         </figure>
+                     </div>
+
+                     <!--right side form-->
+
+                     <div class="column-xs-12 column-sm-6 column-md-6 column-lg-6">
+                         <form name="signupnow">
+
+                             <!-- label for email address-->
+                             <label for="email"> Email adddress</label>
+                             <input type="text" id="email" name="email" placeholder="Email"/>
+
+                             <label for="password">Enter your password </label>
+                             <input type="text" id="password" name="password" placeholder="Password"/>
+
+                             <button type="submit" id="submit" name="submit">
+                                 <span><b>Login</b></span>
+                             </button>
+
+                             <input type="checkbox" name="field" id="field"> Remember me
+                         </form>
+                     </div>
+                 </div>
+             </article>
+             <footer>
+             </footer>
+         </section>
+    </body>
 </html>

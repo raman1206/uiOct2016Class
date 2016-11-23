@@ -1,0 +1,21 @@
+
+.grid(@responsive;@contains-width) when(@responsive =< 12){
+    .column-@{contains-width}-@{responsive} {
+        width: 100% / (12/@responsive);
+    }
+    .grid((@responsive+1);@contains-width);
+}
+
+
+[class*="column-"] {
+  float:left;
+}
+
+.rows{
+   &::after {
+     content: "";
+     clear: both;
+     display: block;
+   }
+}
+

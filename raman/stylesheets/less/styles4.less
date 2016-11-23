@@ -1,0 +1,66 @@
+
+form[name="signupnow"] {
+  border: 2px solid @black;
+  width: 200px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: @yellow;
+  margin-top: 80px;
+}
+
+input {
+  display: block;
+  margin: 8px;
+  padding: 10px 10px;
+  border: 1px solid;
+}
+
+input{
+  &:focus {
+    background-color: @black;
+  }
+}
+
+.breadcrumb{
+ li {
+   display: inline;
+ }
+}
+
+.breadcrumb {
+   li {
+    &::after {
+      content: "»";
+      }
+    }
+}
+
+
+button[type="submit"] {
+  border: 1px solid @lightblue;
+  background-color: @lightblue;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-right: 60px;
+  &:hover {
+    background-color: @green;
+    cursor: pointer;
+  }
+}
+
+button[type="reset"] {
+  border: 2px solid @red;
+  background-color: @red;
+  color: @white;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  &:hover {
+     background-color: @yellow;
+     cursor: pointer;
+  }
+}
+
+
