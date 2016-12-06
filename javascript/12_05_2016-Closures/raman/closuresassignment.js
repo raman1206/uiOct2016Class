@@ -1,32 +1,34 @@
 
 // IIFE construct
 (function(){
-
+   // class total  // defining  the function and converting into class
    function total(){
-       // creating  total alias to this
-     var _total = this;
-      _total.addition = 0;
-      _total.substract = 0;
-      _total.product = 0;
-      _total.dividend = 0;
 
+      // creating  total alias to this
+     var _total = this;
+      _total.addition = null;
+      _total.substract = null;
+      _total.product = null;
+      _total.dividend = null;
+
+      // class mathematics  // defining the function and converting into class
      function mathematics(a,b){
 
           //creating  mathematics alias to this
         var mathematics = this;
-        mathematics.sum = function mathematics (a,b){
+        mathematics.sum = function(){
             return (a+b);
         }
 
-        mathematics.difference = function mathematics (a,b){
+        mathematics.difference = function (){
                 return (a-b);
         }
 
-        mathematics.multiplication = function mathematics (a,b){
+        mathematics.multiplication = function (){
                 return (a*b);
         }
 
-        mathematics.division = function mathematics (a,b){
+        mathematics.division = function (){
                 return (a/b);
         }
 
