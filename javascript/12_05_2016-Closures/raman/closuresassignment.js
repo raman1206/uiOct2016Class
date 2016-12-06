@@ -35,7 +35,7 @@
 
      }
 
-     // inheriting the class mathematics by using keyword new  and calling the function
+     // creating the  new instance using keyword new  and calling the function
      var result = new mathematics();
      /*console.log(result.sum(6,3));
      console.log(result.difference(6,3));
@@ -51,7 +51,7 @@
 
 
    }
-   // inheriting the class total by using keyword new and calling the function
+   // creating the new instance using keyword new and calling the function
    var output = new total();
     console.log(output);
 
