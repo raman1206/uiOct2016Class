@@ -1,4 +1,4 @@
-// IIFE CONSTRUCT
+ // IIFE CONSTRUCT
 (function(){
 
     function substract(greater, lesser){
