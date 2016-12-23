@@ -3,9 +3,17 @@
 (function(window){
                           // capturing the li tag and assigning to some variable  i.e DOM concept
 var forms = document.querySelectorAll('.form-horizontal');
- // add event listener
+
 
     // if you dont mention index  it will give you error because that will output in the form of array thats why we need to give index
+
+    /* here forms[0] is nothing but document.queryselectorall('form-horizontal');
+    in w3 schools we can see that in event listeners
+      document.queryselectorAll('.form-horizontal).addEventListener('click' , function(event){} , false); */
+
+      // we can also say this way
+
+      // add event listener
  forms[0].addEventListener('click',function(event){
       //stop default event/action
 
@@ -25,7 +33,7 @@ var forms = document.querySelectorAll('.form-horizontal');
 
 
      // capture the element
-     var elem = window.document.querySelectorAll('.form-control');
+     var input = window.document.querySelectorAll('.form-control');
 
       // listen to the new event
      input[0].addEventListener('tripleClick',function(event){
@@ -37,4 +45,5 @@ var forms = document.querySelectorAll('.form-horizontal');
      // register the new event to the first anchor tag
           input[0].dispatchEvent(e);
 
-})(window);
+
+  })(window);

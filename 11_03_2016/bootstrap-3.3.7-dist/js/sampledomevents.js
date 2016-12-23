@@ -4,7 +4,7 @@
                           // capturing the li tag and assigning to some variable  i.e DOM concept
 var forms = document.querySelectorAll('form');
 
-//action upon clicking form tag i.e <form onClick ="myTest()"
+// to take the action upon clicking form tag i.e <form onClick ="myTest()"
 window.myTest = function(){
 
    /*// to stop the default event/action
