@@ -9,8 +9,73 @@
 
     self.user = {
       username: '',
-      password: ''
+      password: '',
+      age: '',
+      firstName: 'My name is Srikar'
     };
+
+    self.classRooms = [
+      {
+        firstName: 'Srikar',
+        lastName: 'Shastry',
+        rollNo: 11
+      },
+      {
+        firstName: 'Viswa',
+        lastName: 'Kandi',
+        rollNo: 22
+      },
+      {
+        firstName: 'John',
+        lastName: 'Doe',
+        rollNo: 33
+      },
+      {
+        firstName: 'Jane',
+        lastName: 'Doe',
+        rollNo: 44
+      },
+      {
+        firstName: 'Srikar',
+        lastName: 'Shastry',
+        rollNo: 11
+      },
+      {
+        firstName: 'Viswa',
+        lastName: 'Kandi',
+        rollNo: 22
+      },
+      {
+        firstName: 'John',
+        lastName: 'Doe',
+        rollNo: 33
+      },
+      {
+        firstName: 'Jane',
+        lastName: 'Doe',
+        rollNo: 44
+      },
+      {
+        firstName: 'Srikar',
+        lastName: 'Shastry',
+        rollNo: 11
+      },
+      {
+        firstName: 'Viswa',
+        lastName: 'Kandi',
+        rollNo: 22
+      },
+      {
+        firstName: 'John',
+        lastName: 'Doe',
+        rollNo: 33
+      },
+      {
+        firstName: 'Jane',
+        lastName: 'Doe',
+        rollNo: 44
+      }
+    ];
 
     return self;
   }
