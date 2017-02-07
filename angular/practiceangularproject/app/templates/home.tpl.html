@@ -6,15 +6,15 @@
 
         <div class="form-group">
           <label for="username">User Name </label>
-          <input type="text" id="username" name="username" placeholder="UserName" ng-model="HomeCtrl.user.username" class="form-control" required>
+          <input type="text" id="username" name="username" placeholder="UserName" ng-model="user.username">
         </div>
 
         <div class="form-group">
           <label for="password">Enter Password </label>
-          <input type="text" id="password" name="password" placeholder="Enter Password" ng-model="HomeCtrl.user.password" class="form-control" required>
+          <input type="text" id="password" name="password" placeholder="Enter Password" ng-model="user.password">
         </div>
 
-        <button type="submit" class="btn btn-primary" ng-click="HomeCtrl.signin()">
+        <button type="submit" class="btn btn-primary" ng-click="signin()">
           <!--inside the button add gylphicon icons by using i-->
           <i class="glyphicon glyphicon-ok-sign"></i> &nbsp;
           Sign in

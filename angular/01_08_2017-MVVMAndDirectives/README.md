@@ -1,4 +1,4 @@
- **MVVM Architecture**
+**MVVM Architecture**
 
 1. We treat our controller as a class which will only initialize the view model.
 2. All the business logic will sit inside the services. 
