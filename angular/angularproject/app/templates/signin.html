@@ -1,0 +1,84 @@
+
+
+<section class="container-fluid">
+  <header>
+    <h1 class="text-center">Portal Login </h1>
+  </header>
+
+  <article class="container">
+
+    <div class="row">
+      <!-- first div-->
+      <!--left side logo-->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+        <!--nesting columns -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <!--<h2 class="text-center"> CSUF portal </h2>-->
+          </div>
+
+          <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+            <img src="https://citizenpath.com/wp-content/uploads/2015/03/csuf-logo-horiz-4c-e1426262549323.png" class="img-responsive"/>
+          </div>
+        </div>
+      </div>
+      <!--second div-->
+      <!-- right side form-->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <form class="form-horizontal">
+
+          <div class="form-group">
+            <label for="username" class="col-sm-2 col-xs-12 col-md-2 col-lg-2 control-label">Username</label>
+            <div class="col-sm-10 col-xs-12 col-md-10 col-lg-10">
+              <input type="text" class="form-control" id="username" placeholder="Username" required ng-model="Ctrl.One.username">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password" class="col-sm-2 col-xs-12 col-md-2 col-lg-2 control-label">Password</label>
+            <div class="col-sm-10 col-xs-12 col-md-10 col-lg-10">
+              <input type="password" class="form-control" id="password" placeholder="Password" required ng-model="Ctrl.One.password">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-md-offset-2 col-lg-offset-2  col-sm-10 col-xs-12 col-md-10 col-lg-10">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Remember me
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10 col-md-10 col-lg-10 col-xs-12">
+
+              <button type="button" class="btn btn-success" ng-click="signin()">
+                <!--inside the button add gylphicon icons by using i-->
+                <i class="glyphicon glyphicon-ok-sign"></i> &nbsp;
+                Sign in
+              </button>
+
+              <button type="button" class="btn btn-danger">
+                <!--inside the button add gylphicon icons by using i-->
+                <i class="glyphicon glyphicon-remove-circle"></i>
+                &nbsp;cancel
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </article>
+  <footer>
+    <ul class="list-inline">
+      <li><a href="https://www.google.com/maps">Google maps</a></li>
+      <li> <a href="https://www.facebook.com/CSUFofficial">Facebook</a> </li>
+      <li><a href="https://shibboleth.fullerton.edu/idp/profile/SAML2/Redirect/SSO;jsessionid=202C5D26A675ADCDCEE1F7DBDE736B76?execution=e1s1">Sign up for CSUF alumni account</a> </li>
+      <li><a href="https://twitter.com/csuf?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Follow us on Twitter</a></li>
+    </ul>
+  </footer>
+</section>
+<!--<script src="bootstrap-3.3.7-dist/js/sampledomevents.js"></script>-->
+<script src="bootstrap-3.3.7-dist/js/sampleeventlisteners.js"></script>
+</body>
+</html>

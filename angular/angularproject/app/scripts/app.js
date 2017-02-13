@@ -8,6 +8,34 @@
  *
  * Main module of the application.
  */
+
+
+
+ function AppConfig($routeProvider){
+   $routeProvider
+   .when('/signin',{
+    templateUrl: '../templates/signin.html',
+    controller:'ControllerOne as CtrlOne'
+   })
+
+   .when('/about',{
+    templateUrl:'../templates/about.html'
+
+   })
+   .when('/welcome',{
+   templateUrl:'../templates/welcome.html'
+   })
+
+   .otherwise('/home');
+
+
+
+
+ }
+
+ AppConfig.$inject = ['$routeProvider'];
+
+
 angular
   .module('angularprojectApp', [
     'ngAnimate',
@@ -17,21 +45,14 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'angularprojectApp.controllers',
+    'angularprojectApp.services'
   ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+   .config(AppConfig);
+
+  //create a new module for controllers
+  angular.module('angularprojectApp.controllers',[]);
+
+  //create a new module for services
+  angular.module('angularprojectApp.services',[]);
