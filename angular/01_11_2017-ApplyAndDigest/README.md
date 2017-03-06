@@ -54,7 +54,7 @@ In angular, there are two type of event broadcasting:
         Example:
         HomeController.js:
         $rootScope.$broadcast('userObject',{username: vm.user.username});
-        
+
         SrikarElement.js:
         scope.$on('userObject',function(event,username){
             console.log(username); // output: value of vm.user.username
